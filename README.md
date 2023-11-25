@@ -19,7 +19,7 @@ The algorithm search, recursively, the best move that leads the *Max* player to 
 ## Understanding the Algorithm
 The algorithm was studied by the book Algorithms in a Nutshell (George Heineman; Gary Pollice; Stanley Selkow, 2009). Pseudocode (adapted):
 
-```
+```python
 minimax(state, depth, player)
 
 	if (player = max) then
@@ -173,3 +173,7 @@ In a more complex game, such as chess, it's hard to search whole game tree. Howe
 * Book: George T. Heineman; Gary Pollice; Stanley Selkow. Algorithms in a nutshell. O'Reilly, 2009.
 * Wikipédia: <https://en.wikipedia.org/wiki/Minimax>
 * Nanyang Technological University: <https://www.ntu.edu.sg/home/ehchua/programming/java/JavaGame_TicTacToe_AI.html>
+
+## Fork
+
+This project is a fork of [cledersonbc/tic-tac-toe-minimax](https://github.com/Cledersonbc/tic-tac-toe-minimax) in which I added a Human vs Human mode.
